@@ -1,0 +1,24 @@
+Página html 
+
+conteúdo da página:
+
+Um cabeçalho
+
+Uma área de navegação,
+
+uma região principal
+
+um rodapé
+
+
+na área principal cria três seções
+
+-na primeira seção crie um titulo e dois parágrafos com 30 palavras cada
+ -na segunda seção adicientes duas regiões e figuras
+--em cada região de figura coloque uma imagem e uma legenda
+(faça com que cada imagem seja um hyperlink para páginas da internet)
+
+no cabeçalho coloque apenas um parágrafo
+no rodapé coloque apenas um parágrafo
+na área de navegação crie uma lista numerada de 4 itens
+
