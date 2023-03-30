@@ -1,0 +1,44 @@
+section{
+            
+    margin: 30px auto;
+    
+    padding: 40px;
+}
+
+nav {
+    border: solid blue 3px
+}
+
+header{
+    border-top: 50px;
+}
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+h4{
+    color: green;
+
+}
+.caixaTipo1{
+    border: 2px blue solid;
+    background-color: blueviolet;
+    
+}
+
+.caixaTipo2{
+    border: 5px dashed green;
+    background-color: brown;
+}
+.p1{
+    color: aqua;
+    font-family: verdana;
+    font-size: 22px;
+
+}
+.p2{
+    color: aqua;
+    font-family: verdana;
+    font-size: 22px;
+
+}
