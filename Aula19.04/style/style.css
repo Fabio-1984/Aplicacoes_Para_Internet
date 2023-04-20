@@ -1,0 +1,102 @@
+
+/*Corpo*/
+
+body{
+    font-family: arial;
+    color: rgb(51, 51, 51);
+    background-color: rgb(240, 240, 240);
+    font-size: 14pt;
+  
+  }
+
+  /*cabeçalho*/
+
+  header{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+
+  /*rodape*/
+  footer{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*Navegação*/
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+nav{
+    margin-left: 500px;
+}
+
+ul li{
+    
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Aree de conteudo*/
+main{
+    
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+main article{
+    display: inline-block; 
+     
+}
+
+
+article{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;  
+    margin-bottom: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 16pt;
+    width: 400px;
+    height: 150px;
+    margin-left: 10px;
+    
+}
+
+
+
+.nav-link:hover{
+    color: #08f013;
+    text-decoration: none;
+}
+
+article:hover{
+  background-color: #08f013;
+  color: white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
