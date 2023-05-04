@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          section{
+            border: 1px solid black;
+           padding: 10px;
+          }
+        div {
+            border: 1px solid blue;
+            height: 50px;
+            width: 150px;
+        }
+
+        .divEmLinha{
+            display: inline;
+        }
+
+        .divEmBlock{
+            display: block;
+        }
+
+        .divEmLinhaEmBloco{
+            display: inline-block;
+        }
+
+        .container-flex{
+            display: flex;
+        }
+
+
+        .itemFlutuante{
+            float: left;
+            
+        }
+
+        .itemFlutuanteDireita{
+            float: right;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Exemplo com display inline, block, inline-block, flex; e float</h2>
+
+    <h3>Sem display</h3>
+
+
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <h3>Display inline</h3>
+
+    <section>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+        <div class="divEmLinha"></div>
+    </section>
+
+
+    <h3>Dsplay block</h3>
+
+    <section>
+        <div class="EmBlock"></div>
+        <div class="EmBlock"></div>
+        <div class="EmBlock"></div>
+        <div class="EmBlock"></div>
+        <div class="EmBlock"></div>
+    </section>
+    
+     <h3>Display Inline-Block</h3>
+
+     <section>
+        <div class="divEmLinhaEmBloco"></div>
+        <div class="divEmLinhaEmBloco"></div>
+        <div class="divEmLinhaEmBloco"></div>
+        <div class="divEmLinhaEmBloco"></div>
+        <div class="divEmLinhaEmBloco"></div>
+     </section>
+
+     <h3>Display flex</h3>
+
+     <section class="container-flex">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+     </section>
+
+     <h3>Float</h3>
+     <section>
+        <div class="itemFlutuante"></div>
+        <div class="itemFlutuante"></div>
+        <div class="itemFlutuante"></div>
+        <div class="itemFlutuanteDireita"></div>
+        <div class="itemFlutuanteDireita"></div>
+     </section>
+
+     <br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>
